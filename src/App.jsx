@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import PostsPage from './pages/PostsPage';
 import PostDetailPage from './pages/PostDetailPage';
 import CreatePostPage from './pages/CreatePostPage';
+import './App.css';
 
 function App() {
     return (

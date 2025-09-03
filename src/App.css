@@ -1,0 +1,60 @@
+/* Mise en page générale */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #222;
+  margin: 20px 0;
+}
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Liste de posts */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
