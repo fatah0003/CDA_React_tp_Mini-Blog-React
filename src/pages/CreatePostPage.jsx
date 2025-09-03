@@ -4,6 +4,7 @@ import PostForm from '../components/PostForm';
 const CreatePostPage = () => {
     const handleSubmit = async (data) => {
         await api.post('/posts', data);
+        alert('Article créé !');
     };
 
     return (
