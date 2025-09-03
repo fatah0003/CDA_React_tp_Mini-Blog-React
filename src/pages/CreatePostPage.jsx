@@ -3,9 +3,7 @@ import PostForm from '../components/PostForm';
 
 const CreatePostPage = () => {
     const handleSubmit = async (data) => {
-        const res = await api.post('/posts', data);
-        console.log('Post créé:', res.data);
-        alert('Article créé !');
+        await api.post('/posts', data);
     };
 
     return (
